@@ -1,4 +1,4 @@
-# 📰 News Aggregator — SQL Analysis Portfolio
+# News Aggregator — SQL Analysis Portfolio
 
 **Tool:** PostgreSQL  
 **Dataset:** [UCI News Aggregator Dataset](https://www.kaggle.com/datasets/uciml/news-aggregator-dataset) — 422,419 news articles  
@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project analyzes a large-scale news aggregator dataset using PostgreSQL to answer key business questions around content distribution, publisher behavior, and publication timing patterns.
 
@@ -14,7 +14,7 @@ The analysis simulates the kind of questions a media analyst or digital content 
 
 ---
 
-## ❓ Business Questions Answered
+## Business Questions Answered
 
 | # | Question |
 |---|----------|
@@ -26,7 +26,7 @@ The analysis simulates the kind of questions a media analyst or digital content 
 
 ---
 
-## 🗄️ Dataset Structure
+## Dataset Structure
 
 | Column | Type | Description |
 |--------|------|-------------|
@@ -41,7 +41,7 @@ The analysis simulates the kind of questions a media analyst or digital content 
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 ### 1. Category Distribution
 Entertainment leads with over 36% of all articles, while Medical remains a niche segment at 10.8%.
@@ -121,7 +121,7 @@ Entertainment and Business have the most unique publishers (6,600+) but low aver
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 news-analysis-sql/
@@ -143,7 +143,7 @@ news-analysis-sql/
 
 ---
 
-## 🛠️ How to Reproduce
+## How to Reproduce
 
 1. Download dataset from [Kaggle](https://www.kaggle.com/datasets/uciml/news-aggregator-dataset)
 2. Create PostgreSQL database: `CREATE DATABASE news_analysis;`
@@ -153,7 +153,7 @@ news-analysis-sql/
 
 ---
 
-## 💡 Skills Demonstrated
+## Skills Demonstrated
 
 - PostgreSQL query writing (SELECT, GROUP BY, JOINS, Subqueries, Window Functions)
 - Unix timestamp conversion using `TO_TIMESTAMP()`
